@@ -120,13 +120,40 @@
   }
 .seccion_{
   width: 100%;
-  height: 100%;
-
+  height: 1999px;
 
 }
+/*--------------------------Section del index------------------*/
+.seccion_{
+  width: 100%;
+  height: 1999px;
 
-.seccion_h1{
+}
+  .Productos__h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+.perro{
+  background-image: url(./img/PerroInicio.jpg);
+  background-size: 100% 100%;
+  width: 50%;
+  height: 600px;
+
+}
+.gato{
+  background-image: url(./img/GatoInicio.jpg);
+  background-size: 100% 100%;
+  width: 50%;
+  height: 600px;
+  
+}
+.contenedorAnimales{
   display: flex;
-  justify-content: center;
 
 }
+
+
+
