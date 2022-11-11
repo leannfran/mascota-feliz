@@ -1,0 +1,100 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+/*------------------------------- tarjeta de inicio -------------------------------------------*/
+
+  body {
+    background-image: linear-gradient(rgb(207, 245, 231),rgb(207, 245, 231)),
+     url(../img/fondo__HM:.jpg.jpg);
+    background-size: cover;
+    min-height: 500px;
+    height: 100vh;
+  
+  
+    
+  }
+  
+  #grid__index {
+    display: grid;
+      grid-template-areas: 
+      "headerNav"
+      "main"
+      "foteer"
+      ;
+      grid-template-columns: 100%;
+      grid-template-rows: auto 1fr auto;
+      height: 100vh;
+  
+  }
+  /* ------------------- NAV DEL INDEX :) ------------------- */
+    
+  
+  /*                          NAV PC                          */
+  .nav__container {
+    background-color:#CFF5E7;
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    
+  }
+  
+  .nav__h1 {
+   margin-left: 2rem;
+   color: #000;
+  }
+  
+  .nav__ul {
+    display: flex;
+    margin-right: 1rem;
+  }
+  
+  .nav__li {
+    display: flex;
+   list-style: none;
+   padding: 1rem;
+   transition: 0.5s;
+  }
+  
+  .nav__li a {
+    text-decoration: none;
+    font-size: 1rem ;
+    color: #000;
+    margin: 0rem 0.625rem;
+    padding: 2rem 0.8rem;
+    
+  }
+  .nav__li a:hover {
+    background-color: #ffffff;
+    transition: 0.5s;
+  
+  }
+  .fa-solid {
+    color: #000;
+    font-size: 2rem;
+  }
+  
+  /* ------------------- HERO DEL INDEX :) ------------------- */
+  
+  .hero__container {
+    margin: 3rem auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+  .hero__h2 {
+    display: flex;
+    font-size: 3rem;
+    color: #000;
+    text-align: center;
+    
+  }
+    
