@@ -34,14 +34,13 @@
   
   /*                          NAV PC                          */
   .nav__container {
-    background-color:#ffffff;
+    background-color:#CFF5E7;
     display: flex;
     width: 100%;
     height: 4rem;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 2px rgba(0,0,2,0.2);
-    z-index: 10;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     
   }
   
@@ -83,7 +82,7 @@
   /* ------------------- HERO DEL INDEX :) ------------------- */
   
   .hero__container {
-    margin:auto;
+    margin:  auto;
     padding: auto;
     width: 100%;
     height: 100vh;
@@ -91,9 +90,10 @@
     flex-direction: column;
     align-items: center;
     background-image: url(./img/hero__Fondo.jpg);
-    background-attachment: contain;
-    background-repeat: no-repeat;
+      background: cover;
     background-size: 100% 100%;
+    background-repeat: no-repeat ;
+    
   }
 
   .hero__h2 {
@@ -101,7 +101,18 @@
     font-size: 3rem;
     color: #000;
     text-align: center;
-    margin: 1rem auto 10rem;
+    margin: 1rem auto 2rem;
     
   }
+.seccion_{
+  width: 100%;
+  height: 100%;
 
+
+}
+
+.seccion_h1{
+  display: flex;
+  justify-content: center;
+
+}
