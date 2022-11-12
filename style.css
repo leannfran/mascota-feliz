@@ -65,6 +65,20 @@
     color: #000;
     font-size: 2rem;
   }
+
+  .sinCargoHeader__{
+    text-align: center;
+    background-color: rgb(237, 152, 56, 0.563);
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+
+  }
+  .sinCargoHeader__ h3{
+    font-weight: 500;
+  }
   
   /* ------------------- HERO DEL INDEX :) ------------------- */
   
@@ -305,6 +319,7 @@
   background: rgb(237, 152, 56);
   width: 50%;
   height: 100vh;
+
 }
 
 .izquierda h1{
@@ -312,6 +327,7 @@
   width: 50%;
   margin: auto;
   margin-bottom: 40px;
+  margin-top: 3vh;
 }
 .izquierda p {
   font-size: 19px;
@@ -334,7 +350,20 @@
   display: flex;
 }
 
+.izquierda a{
+  border:  2px solid #ffff;
+  padding: 2%;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10vh;
+}
 
+.linkEnvio{
+  text-align: center;
+}
 
 
 
