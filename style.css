@@ -186,7 +186,8 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-
+  top: 0;
+  background:rgb(,94, 94, 94, 0.7);
 
 }
 
@@ -197,9 +198,7 @@
   overflow: hidden;
 
 }
-.perro h3 .capaP{
-  position: absolute;
-}
+
 
 
 
