@@ -6,9 +6,6 @@
 }
 
 /*------------------------------- tarjeta de inicio -------------------------------------------*/
-
-  body {  
-  }
   
   #grid__index {
     display: grid;
@@ -24,18 +21,13 @@
   }
   /* ------------------- NAV DEL INDEX :) ------------------- */
     
-  
-  /*                          NAV PC                          */
   .nav__container {
     background-color: #000000;
-   
-    
     display: flex;
     width: 100%;
     height: 4rem;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
   }
   
   .nav__h1 {
@@ -67,8 +59,8 @@
   .nav__li a:hover {
     background-color: #ffffff;
     transition: 0.5s;
-  
   }
+
   .fa-solid {
     color: #000;
     font-size: 2rem;
@@ -92,6 +84,7 @@
     z-index: 3;
     clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 91%, 0 100%, 0% 50%);
   }
+
   .hero__container::before {
     content: "";
     width: 100%;
@@ -99,11 +92,8 @@
     position: absolute;
     top:2;
     left: 0;
-
     background: rgb(237,188,56);
     background: linear-gradient(177deg, rgba(237,188,56,1) 0%, rgba(88,230,88,0) 69%);
-    
-   
     opacity: 0.4;
     z-index: 1;
   }
@@ -115,27 +105,29 @@
     text-align: center;
     margin: 3rem 5rem 2rem;
     font-weight: 300; 
-    z-index: 2;
-    
+    z-index: 2; 
   }
+
   .hero__p1 {
     font-size: 1rem;
     font-weight: 300;
     font-stretch: expanded;
     z-index: 2;
   }
+
+  .seccion_{
+   width: 100%;
+   height: 1999px;
+  }
+
+/*--------------------------Section perro y gato :) -----------------------*/
+
 .seccion_{
   width: 100%;
   height: 1999px;
-
 }
-/*--------------------------Section del index------------------*/
-.seccion_{
-  width: 100%;
-  height: 1999px;
 
-}
-  .Productos__h3{
+.Productos__h3{
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -144,15 +136,15 @@
     height: 50px;
     font-size: x-large;
     font-weight: 300;
-  }
+}
 
-  .Productos__p1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0px;
-    margin-bottom: 25px;
+.Productos__p1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 25px;
   }
 
 .perro{
@@ -178,12 +170,13 @@
   box-shadow: 0 2px 2px rgba(0,0,0,0.2);
   transition: all 500ms ease-out;
 }
+
 .contenedorAnimales{
   display: flex;
 
 }
-/*------------------------Div Perro-----------------*/
 
+/*------------------------Div Perro rami puto-----------------*/
 
 .capaP{
   width: 100%;
@@ -212,15 +205,18 @@
   text-align: center;
 
 }
+
 .perro:hover > .capaP{
   opacity: 1;
   visibility: visible;
 }
+
 .perro:hover > .capaP h3{
   margin-top: 50%;
   margin-bottom: 15px;
   transition: all 500ms ease-out;
 }
+
 .perro .capaP h3{
   color: rgb(0, 0, 0);
   font-size: 2.5rem;
@@ -248,7 +244,6 @@
   opacity: 0;
   visibility: hidden;
   text-align: center;
-
 }
 
 .capaP2 h3{
@@ -256,16 +251,18 @@
   height: 250px;
   width: 350px;
   overflow: hidden;
-
 }
+
 .gato:hover > .capaP2{
   opacity: 1;
   visibility: visible;
 }
+
 .gato:hover > .capaP2 h3{
   margin-top: 50%;
   margin-bottom: 15px;
 }
+
 .gato .capaP2 h3{
   color: rgb(0, 0, 0);
   font-size: 2.5rem;
