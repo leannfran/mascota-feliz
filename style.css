@@ -351,15 +351,29 @@
   justify-content: center;
   width: 100%;
   height: auto;
-  background-color: aqua;
-  margin: 5px;
+  flex-direction: column;
+  box-shadow: 1px 2px 2px rgba(1,1,1,0.2);
+  border-radius: 15px;
+  object-fit: contain;
 }
+.imagenes__grid{
+  width: 240px;
+  height: 240px;
+  object-fit: contain;
+  
+}
+
 
 .div__container-gatos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
-/*-------------------------Scroll Automático--------------------*/
-html{
+  grid-auto-rows: minmax(240px, auto);
+  gap: 20px;
+  margin:2rem;
+
+
+  /*-------------------------Scroll Automático--------------------*/
+html {
   scroll-behavior: smooth;
 }
 
