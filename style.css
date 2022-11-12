@@ -196,9 +196,10 @@
   background: rgb(237,188,56);
     background: linear-gradient(177deg, rgba(237,188,56,1) 0%, rgba(88,230,88,0) 69%);
   transition: all 500ms ease-out;
-  opacity: 0.1;
+  opacity: 0;
   visibility: hidden;
   text-align: center;
+
 
 }
 
@@ -206,7 +207,9 @@
   position: relative;
   height: 250px;
   width: 350px;
+  opacity: 1;
   overflow: hidden;
+  text-align: center;
 
 }
 .perro:hover > .capaP{
@@ -216,6 +219,7 @@
 .perro:hover > .capaP h3{
   margin-top: 50%;
   margin-bottom: 15px;
+  transition: all 500ms ease-out;
 }
 .perro .capaP h3{
   color: rgb(0, 0, 0);
@@ -241,7 +245,7 @@
   background: rgb(237,188,56);
     background: linear-gradient(177deg, rgba(237,188,56,1) 0%, rgba(88,230,88,0) 69%);
   transition: all 500ms ease-out;
-  opacity: 0.1;
+  opacity: 0;
   visibility: hidden;
   text-align: center;
 
