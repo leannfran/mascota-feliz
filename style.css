@@ -187,7 +187,7 @@
   top: 0;
   border-radius: 6px;
   background: rgb(237,188,56);
-    background: linear-gradient(177deg, rgba(237,188,56,1) 0%, rgba(88,230,88,0) 69%);
+    background: linear-gradient(177deg, rgba(237, 189, 56, 0.501) 0%, rgba(88,230,88,0) 69%);
   transition: all 500ms ease-out;
   opacity: 0;
   visibility: hidden;
@@ -237,7 +237,7 @@
   top: 0;
   border-radius: 6px;
   background: rgb(237,188,56);
-    background: linear-gradient(177deg, rgba(237,188,56,1) 0%, rgba(88,230,88,0) 69%);
+    background: linear-gradient(177deg, rgba(237, 189, 56, 0.553) 0%, rgba(88,230,88,0) 69%);
   transition: all 500ms ease-out;
   opacity: 0;
   visibility: hidden;
