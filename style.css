@@ -222,6 +222,51 @@
 
 
 
+/*------------------------Div Gato-----------------*/
+
+.capaP2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  top: 0;
+  border-radius: 6px;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(133,255,189,0.8) 59%, rgba(51,128,151,1) 100%);
+  transition: all 500ms ease-out;
+  opacity: 0.1;
+  visibility: hidden;
+  text-align: center;
+
+}
+
+.capaP2 h3{
+  position: relative;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+
+}
+.gato:hover > .capaP2{
+  opacity: 1;
+  visibility: visible;
+}
+.gato:hover > .capaP2 h3{
+  margin-top: 50%;
+  margin-bottom: 15 px;
+}
+.gato .capaP2 h3{
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+
+
+
 
 
 
