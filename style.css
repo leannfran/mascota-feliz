@@ -189,7 +189,7 @@
   top: 0;
   border-radius: 6px;
   background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(133,255,189,1) 59%, rgba(51,128,151,1) 100%);
+  background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(133,255,189,0.8) 59%, rgba(51,128,151,1) 100%);
   transition: all 500ms ease-out;
   opacity: 0.1;
   visibility: hidden;
