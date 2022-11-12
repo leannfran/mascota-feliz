@@ -93,7 +93,7 @@
     top:2;
     left: 0;
     background: rgb(237,188,56);
-    background: linear-gradient(177deg, rgba(237,188,56,1) 0%, rgba(88,230,88,0) 69%);
+    background: linear-gradient(177deg, rgb(237, 152, 56, 1) 0%, rgba(88,230,88,0) 69%);
     opacity: 0.4;
     z-index: 1;
   }
@@ -149,7 +149,7 @@
 
 .seccion_{
   width: 100%;
-  height: 1999px;
+  height: 125vh ;
 }
 
 .Productos__h3{
@@ -211,8 +211,8 @@
   height: 100%;
   top: 0;
   border-radius: 6px;
-  background: rgb(237,188,56);
-  background: linear-gradient(177deg, rgba(237, 189, 56, 0.524) 0%, rgba(88,230,88,0) 69%);
+  background: rgb(237, 152, 56);
+  background: linear-gradient(177deg, rgb(237, 152, 56, 0.563) 0%, rgba(88,230,88,0) 69%);
   transition: all 500ms ease-out;
   opacity: 0;
   visibility: hidden;
@@ -266,8 +266,8 @@
   height: 100%;
   top: 0;
   border-radius: 6px;
-  background: rgb(237,188,56);
-  background: linear-gradient(177deg, rgba(237, 189, 56, 0.524) 0%, rgba(88,230,88,0) 69%);
+  background: rgb(237, 152, 56);
+  background: linear-gradient(177deg, rgb(237, 152, 56, 0.563) 0%, rgba(88,230,88,0) 69%);
   transition: all 500ms ease-out;
   opacity: 0;
   visibility: hidden;
@@ -302,7 +302,7 @@
 /* --------------------Envios Pantalla Dividida-------*/
 
 .izquierda{
-  background: rgb(237,188,56);
+  background: rgb(237, 152, 56);
   width: 50%;
   height: 100vh;
 }
@@ -405,8 +405,7 @@
   grid-auto-rows: minmax(240px, auto);
   gap: 20px;
   margin:2rem;
-
-
+}
   /*-------------------------Scroll Automático--------------------*/
 html {
   scroll-behavior: smooth;
