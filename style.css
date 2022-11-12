@@ -176,7 +176,7 @@
 
 }
 
-/*------------------------Div Perro rami puto-----------------*/
+/*------------------------Div Perro ----------------------*/
 
 .capaP{
   width: 100%;
@@ -187,7 +187,7 @@
   top: 0;
   border-radius: 6px;
   background: rgb(237,188,56);
-    background: linear-gradient(177deg, rgba(237, 189, 56, 0.524) 0%, rgba(88,230,88,0) 69%);
+  background: linear-gradient(177deg, rgba(237, 189, 56, 0.524) 0%, rgba(88,230,88,0) 69%);
   transition: all 500ms ease-out;
   opacity: 0;
   visibility: hidden;
@@ -242,7 +242,7 @@
   top: 0;
   border-radius: 6px;
   background: rgb(237,188,56);
-    background: linear-gradient(177deg, rgba(237, 189, 56, 0.553) 0%, rgba(88,230,88,0) 69%);
+  background: linear-gradient(177deg, rgba(237, 189, 56, 0.524) 0%, rgba(88,230,88,0) 69%);
   transition: all 500ms ease-out;
   opacity: 0;
   visibility: hidden;
@@ -271,7 +271,7 @@
   font-size: 2.5rem;
   font-weight: 300;
   margin-bottom: 120px;
-  transition: all 1s ease-out;
+  transition: all 500ms ease-out;
   margin-top: 30px;
 }
 
@@ -400,6 +400,13 @@
 
 }
 
+
+/*-------------------------Scroll Automático--------------------*/
+html{
+  scroll-behavior: smooth;
+}
+
+/*------------------------Footer Index--------------------------*/
 
 
 
