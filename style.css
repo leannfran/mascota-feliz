@@ -27,7 +27,7 @@
   
   /*                          NAV PC                          */
   .nav__container {
-    background-color: #85FFBD;
+    background-color: #000000;
    
     
     display: flex;
@@ -35,18 +35,18 @@
     height: 4rem;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 0px 0px rgba(0,0,0,0.2);
     
   }
   
   .nav__h1 {
-   margin-left: 2rem;
-   color: #000;
+    margin-left: 2rem;
+    color: rgb(255, 255, 255);
   }
   
   .nav__ul {
     display: flex;
     margin-right: 1rem;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.2);
   }
   
   .nav__li {
@@ -59,7 +59,7 @@
   .nav__li a {
     text-decoration: none;
     font-size: 1rem ;
-    color: #000;
+    color: rgb(255, 255, 255);
     margin: 0rem 0.625rem;
     padding: 2rem 0.8rem;
     
@@ -99,7 +99,10 @@
     top:2;
     left: 0;
 
-    background: linear-gradient(90deg , #85FFBD , #338097);
+    background: rgb(237,188,56);
+background: linear-gradient(177deg, rgba(237,188,56,1) 0%, rgba(88,230,88,0) 69%);
+    
+   
     opacity: 0.4;
     z-index: 1;
   }
