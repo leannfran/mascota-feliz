@@ -187,11 +187,12 @@
   top: 0;
   border-radius: 6px;
   background: rgb(237,188,56);
-    background: linear-gradient(177deg, rgba(237, 189, 56, 0.501) 0%, rgba(88,230,88,0) 69%);
+    background: linear-gradient(177deg, rgba(237, 189, 56, 0.524) 0%, rgba(88,230,88,0) 69%);
   transition: all 500ms ease-out;
   opacity: 0;
   visibility: hidden;
   text-align: center;
+
 
 }
 
@@ -201,6 +202,7 @@
   width: 350px;
   opacity: 1;
   overflow: hidden;
+  text-align: center;
 
 }
 
@@ -222,6 +224,9 @@
   margin-bottom: 120px;
   transition: all 1s ease-out;
   margin-top: 30px;
+}
+.a__perro { 
+  text-decoration: none;
 }
 
 
@@ -266,15 +271,51 @@
   font-size: 2.5rem;
   font-weight: 300;
   margin-bottom: 120px;
-  transition: all 500ms ease-out;
+  transition: all 1s ease-out;
   margin-top: 30px;
 }
 
-/*-----------------------------------Scroll Utomático---------------------------*/
-html{
-  scroll-behavior: smooth;
+
+
+/* --------------------griiidddd perros-------*/
+
+#grid__sobreMi {
+  display: grid;
+  grid-template-areas: 
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+  "text1 text2 text3 text4"
+ ;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1.5rem; 
 }
 
+.text__nutricionDepor {
+  grid-area: "text1";
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+ 
+  padding: 1rem;
+  box-shadow: 1px 2px 2px rgba(1,1,1,0.2);
+  flex-direction: column;
+  align-items: center;
+}
 
 
 
