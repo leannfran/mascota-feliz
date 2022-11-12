@@ -283,7 +283,7 @@
   display: grid;
   grid-template-areas: 
   "text1 text2 text3 text4"
-  "text1 text2 text3 text4"
+  "text5 text6 text7 text4"
   "text1 text2 text3 text4"
   "text1 text2 text3 text4"
   "text1 text2 text3 text4"
@@ -300,7 +300,7 @@
   "text1 text2 text3 text4"
  ;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
   grid-gap: 1.5rem; 
 }
 
