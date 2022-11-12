@@ -270,8 +270,10 @@
   margin-top: 30px;
 }
 
-
-
+/*-----------------------------------Scroll Utomático---------------------------*/
+html{
+  scroll-behavior: smooth;
+}
 
 
 
