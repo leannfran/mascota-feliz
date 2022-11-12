@@ -19,6 +19,17 @@
       height: 100vh;
   
   }
+  /*---------------------Logo del Nav------------------------*/
+  .logo{
+    height: 100%;
+    display: flex;
+  }
+  .logo img{
+    margin-left: 5%;
+  }
+
+
+
   /* ------------------- NAV DEL INDEX :) ------------------- */
     
   .nav__container {
@@ -345,11 +356,9 @@
   width: 50%;
   height: 100vh;
 }
-
-#Envio{
+.seccionEnvios{
   display: flex;
 }
-
 .izquierda a{
   border:  2px solid #ffff;
   padding: 2%;
