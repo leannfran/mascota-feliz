@@ -116,7 +116,6 @@
   }
 
   .hero__container a{
-
     position: relative;
   }
 
@@ -124,6 +123,27 @@
    width: 100%;
    height: 1999px;
   }
+
+  .boton1 {
+    background-color:rgba(15, 14, 10, 1) ;
+    margin-top: 80px;
+    z-index: 10;
+    text-decoration: none;
+    padding: 7px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    border-bottom: #ffffff 4px solid;
+  }
+  .boton1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    font-weight: 300;
+  }
+  .boton1 h3{
+    color: #ffffff;
+  }
+
+  
 
 /*--------------------------Section perro y gato :) -----------------------*/
 
@@ -287,8 +307,23 @@
   height: 100vh;
 }
 
+.izquierda h1{
+  font-size: 70px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.izquierda p {
+  font-size: 19px;
+  line-height: 30px;
+  width: 50%;
+  margin: auto;
+}
+.Sistema{
+  color: #ffff;
+}
 .derecha{
-  background-image: url(./img/cardboard-box-gc1e5d81a9_640.png);
+  background-image: url(./img/GatitoLengua.jpg);
   background-size: cover;
   background-position: center ;
   width: 50%;
