@@ -65,12 +65,14 @@
     font-size: 1rem ;
     color: rgb(255, 255, 255);
     margin: 0rem 0.625rem;
-    padding: 2rem 0.8rem;
+    border-radius: 6px;
+    padding: 0.5rem 0.5rem;
     
   }
   .nav__li a:hover {
     background-color: #ffffff;
     transition: 0.5s;
+    color: #000;
   }
 
   .fa-solid {
