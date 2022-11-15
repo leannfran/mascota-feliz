@@ -183,7 +183,7 @@
 .seccion_{
   width: 100%;
   height: 90vh ;
-  margin-bottom: 7.3rem;
+  margin-bottom: 25rem;
 }
 
 
@@ -423,7 +423,7 @@
   margin-top: 3vh;
 }
 .izquierda p {
-  font-size: 19px;
+  font-size: 16px;
   line-height: 30px;
   width: 50%;
   margin: auto;
@@ -449,12 +449,9 @@
   font-weight: 500;
   text-align: center;
   display: inline-block;
-  margin-top: 10vh;
+  margin-top: 10rem;
 }
 
-.linkEnvio{
-  text-align: center;
-}
 
 
 
@@ -593,62 +590,66 @@ html {
 
 /*------------------------Footer Index--------------------------*/
 
-footer{
+footer {
+  width: 100%;
+  padding: 50px 0;
 
-width: 100%;
-height:  48vh;
-bottom: 0;
-background: linear-gradient(to right, #00093c, #2d0b00);
-color: #fff;
-padding: 100px 0 30px;
-border-top-left-radius: 125px;
-font-size: 15px;
 
 }
 
-.row{
-  width: 85%;
-  height: 100%;
-  margin: auto;
+.container__footer {
+  width: 100%;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items:flex-start;
   justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+  
 }
-.col{
-  flex-basis: 25%;
-  padding: 10px;
-  margin-bottom: 0;
-
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+  
 }
-
-.footerLogo{
-  width: 20vh;
-  margin-bottom: 0;
+.box__footer h4 {
+  font-size: 1.7rem;
+  font-weight: bolder;
 }
-
-.col h3{
-  width: fit-content;
-  margin-bottom: 40px;
-  position: relative;
+.box__footer h3{
+  font-weight:600;
+  margin-bottom: 30px;
 }
-
-.email-id{
-  width: fit-content;
-  border-bottom: 1px solid #ccc;
-  margin-top: 20px;
-  margin-bottom: 20px;
-
+.box__footer .terms {
+  max-width: 350px;
+  margin-top: 2rem;
+  font-weight: 500;
+  color: #7a7a7a;
 }
-
-footer ul li{
-  list-style: none;
-  margin: 12px;
-}
-
-footer ul li a{
+.box__footer p {
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+  font-style: normal;
   text-decoration: none;
-  color: #fff;
+}
+.box__footer a {
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+}
+.box__footer a:hover {
+  opacity: 0.8;
+}
+.box__footer a .fa-brands {
+ font-size: 20px;
+ color: #7a7a7a ;
+ margin-right: 5px;
 }
 
 
