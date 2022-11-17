@@ -540,7 +540,9 @@
   margin-top: 10rem;
 }
 
-
+.mapa__boton {
+  display: flex;
+}
 
 
 
@@ -730,6 +732,7 @@ footer {
   font-weight: 600;
   font-style: normal;
   text-decoration: none;
+  
 }
 .box__footer a:hover {
   opacity: 0.8;
@@ -740,4 +743,8 @@ footer {
  margin-right: 5px;
 }
 
+.derechos {
+  color: #7a7a7a ;
+
+}
 
