@@ -1034,7 +1034,7 @@ footer {
     margin:  auto;
     padding: auto;
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1048,40 +1048,88 @@ footer {
     font-family: sy;
   }
 
-  .hero__container_gato::before {
-    content: "";
-    width: 100%;
-    min-height: 100vh;
-    position: absolute;
-    top:2;
-    left: 0;
-    background-color: #0093E9;
-    background: linear-gradient(177deg, #0093E9 0%, #80D0C7 69%);
-    opacity: 0.4;
-    z-index: 1;
-  }
-
-  .hero__h3__gatos{
-    margin-top: 200px;
-
-  }
-  .TitulosGatos__h3{
+  .header_h3_gatos{
     font-family: system-ui,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 7%;
-    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 300;
-    font-size: 30px ;
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 32%, #80D0C7 64%);      
+    font-size: 30px ;   
+    padding-bottom: 80px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    text-align: center;
+
+  }
+  .header__gatos_p{
+    font-family: system-ui,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    padding-top: 20px;
+  }
+
+
+  .TitulosGatos__h3{
+    font-family: system-ui,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 65px;
+    position: relative;
+    display: flex;
+    margin-bottom: 0px;
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+    
+    justify-content: center;
+    align-items: center;
+    font-weight: 350;
+    font-size: 25px ;
     border-radius: 60px;
-    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 5px;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
   }
 
-  
+  .columna_productos_gatos{
+    width: 75%;
+    margin-left: 0px;
+  }
+
+  .main{
+    display: flex;
+    margin-left: 0px;
+  }
+  .buton__container-gatos h3{
+    margin-bottom: 35px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 25px;
+
+  }
+  .buton__container-gatos{
+    margin-top: 66px;
+    margin-left: 60px;
+    margin-right: 70px;
+    
+  }
+
+  .buton__container-gatos a{
+    text-decoration: none;
+    color:#000
+    bac
+  }
+  .boton__opciones_gato {
+    border-radius: 3rem;
+    background-color: rgba(0, 140, 255, 0);
+    padding: 0.5rem 1rem;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.29);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.29);
+    cursor: pointer;
+    margin-bottom: 8px;
+  }
+
 
   /*----------------------------------------HERO DE PRODUCTOS GATOS------------------------*/
 
