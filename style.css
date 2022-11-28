@@ -341,7 +341,9 @@
   background: rgb(237, 152, 56);
   width: 50%;
   height: auto;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .izquierda h3{
@@ -1045,7 +1047,16 @@ footer {
       color: #ffffff;
   
     }
+/*envios*/
+    .izquierda h3{
+      font-size: 70px;
+      width: 60%;
+      margin: 2rem 3rem;
   
+    }
+    .izquierda p {
+      margin-left: 1rem;
+    }
   
     /*------------------------SECCION PERRO Y GATO RESPONSIVE----------------------*/
   
@@ -1053,4 +1064,3 @@ footer {
 
    
   }
-  
