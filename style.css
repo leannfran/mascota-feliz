@@ -28,8 +28,6 @@
     margin-left: 2rem;
   }
 
-
-
   /* ------------------- NAV DEL INDEX :) ------------------- */
     
   .nav__container {
@@ -70,12 +68,12 @@
     padding: 0.5rem 0.5rem;
     
   }
+
   .nav__li a:hover {
     background-color: #ffffff;
     transition: 0.5s;
     color: #000;
   }
-
 
   .sinCargoHeader__{
     text-align: center;
@@ -87,11 +85,11 @@
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 
   }
+
   .sinCargoHeader__ h3{
     font-weight: 500;
     font-size: 1rem;
   }
-
 
   /*---------------------Menu Responsive-------------------*/
   .menuResponsive {
@@ -165,6 +163,7 @@
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     border-bottom: #ffffff 4px solid;
   }
+
   .boton1 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -174,21 +173,12 @@
   .boton1 h3{
     color: #ffffff;
   }
-/*----------------------------Animacion boton COMPRAR hero-------------------*/
+
   .boton1:hover{
     background-color:rgb(211, 137, 52) ;
     transition: 300ms;
 
   }
-
-
-
-
-
-
-
-
-
 
 /*--------------------------Section perro y gato :) -----------------------*/
 
@@ -197,8 +187,6 @@
   height: auto ;
   margin-bottom: 5rem;
 }
-
-
 
 .Productos__h3{
     margin-top: 2rem;
@@ -298,11 +286,10 @@
   transition: all 1s ease-out;
   margin-top: 30px;
 }
+
 .a__perro { 
   text-decoration: none;
 }
-
-
 
 /*------------------------Div Gato-----------------*/
 
@@ -348,10 +335,6 @@
   margin-top: 30px;
 }
 
-
-
-
-
 /* --------------------Envios Pantalla Dividida-------*/
 
 .izquierda{
@@ -361,8 +344,8 @@
 
 }
 
-.izquierda h1{
-  font-size: 70px;
+.izquierda h3{
+  font-size: 80px;
   width: 50%;
   margin: auto;
   margin-bottom: 40px;
@@ -402,6 +385,41 @@
 .mapa__boton {
   display: flex;
 }
+
+/* --------------------Preguntas Frecuentees-------*/
+
+.pr__section{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.pr__h3{
+  font-size: 50px;
+  margin: 2rem;
+  text-align: center;
+}
+.pr__container{
+  width: 80%;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  border: rgb(237, 152, 56)
+  3px solid;
+  
+}
+.pr__container h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.pr__container p{
+  font-stretch: expanded;
+}
+
+
 
 
 
@@ -543,7 +561,6 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.29);
   
 }
 
-
 .div__container-gatos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
@@ -557,7 +574,6 @@ html {
 }
 
 /*------------------------Footer Index--------------------------*/
-
 footer {
   width: 100%;
   padding: 50px 0;
