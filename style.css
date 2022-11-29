@@ -28,8 +28,6 @@
     margin-left: 2rem;
   }
 
-
-
   /* ------------------- NAV DEL INDEX :) ------------------- */
     
   .nav__container {
@@ -70,12 +68,12 @@
     padding: 0.5rem 0.5rem;
     
   }
+
   .nav__li a:hover {
     background-color: #ffffff;
     transition: 0.5s;
     color: #000;
   }
-
 
   .sinCargoHeader__{
     text-align: center;
@@ -87,11 +85,11 @@
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 
   }
+
   .sinCargoHeader__ h3{
     font-weight: 500;
     font-size: 1rem;
   }
-
 
   /*---------------------Menu Responsive-------------------*/
   .menuResponsive {
@@ -165,6 +163,7 @@
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     border-bottom: #ffffff 4px solid;
   }
+
   .boton1 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -174,31 +173,20 @@
   .boton1 h3{
     color: #ffffff;
   }
-/*----------------------------Animacion boton COMPRAR hero-------------------*/
+
   .boton1:hover{
     background-color:rgb(211, 137, 52) ;
     transition: 300ms;
 
   }
 
-
-
-
-
-
-
-
-
-
 /*--------------------------Section perro y gato :) -----------------------*/
 
 .seccion_{
   width: 100%;
-  height: 90vh ;
-  margin-bottom: 25rem;
+  height: auto ;
+  margin-bottom: 5rem;
 }
-
-
 
 .Productos__h3{
     margin-top: 2rem;
@@ -298,11 +286,10 @@
   transition: all 1s ease-out;
   margin-top: 30px;
 }
+
 .a__perro { 
   text-decoration: none;
 }
-
-
 
 /*------------------------Div Gato-----------------*/
 
@@ -348,21 +335,19 @@
   margin-top: 30px;
 }
 
-
-
-
-
 /* --------------------Envios Pantalla Dividida-------*/
 
 .izquierda{
   background: rgb(237, 152, 56);
   width: 50%;
-  height: 80vh;
-
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.izquierda h1{
-  font-size: 70px;
+.izquierda h3{
+  font-size: 80px;
   width: 50%;
   margin: auto;
   margin-bottom: 40px;
@@ -373,6 +358,7 @@
   line-height: 30px;
   width: 50%;
   margin: auto;
+  margin-bottom: 2rem;
 }
 .Sistema{
   color: #ffff;
@@ -382,7 +368,7 @@
   background-size: cover;
   background-position: center ;
   width: 50%;
-  height: 80vh;
+  height: auto;
 }
 .seccionEnvios{
   display: flex;
@@ -401,6 +387,41 @@
 .mapa__boton {
   display: flex;
 }
+
+/* --------------------Preguntas Frecuentees-------*/
+
+.pr__section{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.pr__h3{
+  font-size: 50px;
+  margin: 2rem;
+  text-align: center;
+}
+.pr__container{
+  width: 80%;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  border: rgb(237, 152, 56)
+  3px solid;
+  
+}
+.pr__container h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.pr__container p{
+  font-stretch: expanded;
+}
+
+
 
 
 
@@ -542,7 +563,6 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.29);
   
 }
 
-
 .div__container-gatos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
@@ -556,7 +576,6 @@ html {
 }
 
 /*------------------------Footer Index--------------------------*/
-
 footer {
   width: 100%;
   padding: 50px 0;
@@ -755,8 +774,132 @@ footer {
   
   
   /*----------------------------------------HERO DE PRODUCTOS GATOS------------------------*/
+  /*----------------------RESPONSIVE PARA tablets--------------------*/
+  @media (max-width:780px){
   
+    .seccion {
+      width: 100%;
+      height: auto ;
+    }
+    .contenedorAnimales {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 0;
+    }
+    .Productos__h3{
+        margin: 3rem 2rem 0;        
+      
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        font-size: x-large;
+        font-weight: 300;
+    }
+    
+    .Productos__p1{
+      text-align: center;
+      padding: 0%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin :0 2rem 1rem; 
+      }
+    
+    .perro{
+
+      background-size: 100% 100%;
+      width: 80%;
+      height: 30rem;
+      border-radius: 6px;
+      cursor: pointer;
+      margin: 0rem 2rem 1rem 2rem;
+    }
+    .gato{
+        background-image: url(./img/GatoInicio.jpg);
+        background-size: 100% 100%;
+        width: 80%;
+        height: 30rem;
+        border-radius: 6px;
+        cursor: pointer;
+        margin: 1rem 2rem 2rem 2rem;
+
+        box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+        transition: all 500ms ease-out;
+    }
+
+    .capaP{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 185px;
+      top: 0;
+      border-radius: 6px;
+      background: rgb(237, 152, 56);
+      background: linear-gradient(177deg, rgb(237, 152, 56, 0.563) 0%, rgba(88,230,88,0) 69%);
+      transition: all 500ms ease-out;
+      opacity: 0;
+      visibility: hidden;
+      text-align: center;
+    }
+  /*envios*/
+  .seccionEnvios {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .izquierda{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;  
+    align-content: center;
+  }
   
+  .izquierda h1{
+    font-size: 70px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 3vh;
+    margin-left: 3rem;
+  }
+  .izquierda p {
+    font-size: 16px;
+    line-height: 30px;
+    
+    margin: 2rem 3rem ;
+  }
+  .Sistema{
+    color: #ffff;
+  }
+  .derecha{
+    background-image: url(./img/GatitoLengua.jpg);
+    background-size: cover;
+    background-position: center ;
+    width: 100%;
+    height: 80vh;
+  }
+
+  .izquierda a{
+    border:  2px solid #ffff;
+    padding: 2%;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10rem;
+  }
+  
+
+
+
+
+
+  }
+
   /*----------------------RESPONSIVE PARA CELULARES--------------------*/
   @media (max-width:480px){
     /*--------------------NAV RESPONSIVE CELULARES---------------------*/
@@ -904,167 +1047,20 @@ footer {
       color: #ffffff;
   
     }
+/*envios*/
+    .izquierda h3{
+      font-size: 70px;
+      width: 60%;
+      margin: 2rem 3rem;
   
+    }
+    .izquierda p {
+      margin-left: 1rem;
+    }
   
     /*------------------------SECCION PERRO Y GATO RESPONSIVE----------------------*/
   
 
 
-    .seccion {
-      width: 100%;
-      height: auto ;
-      margin-bottom: 25rem;
-    }
-    .contenedorAnimales {
-      flex-direction: column;
-      align-items: center;margin-bottom: 10rem;
-    }
-    .Productos__h3{
-        margin: 3rem 2rem 0;        
-      
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: auto;
-        font-size: x-large;
-        font-weight: 300;
-    }
-    
-    .Productos__p1{
-      text-align: center;
-      padding: 0%;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin :0 2rem 1rem; 
-      }
-    
-    .perro{
-      background-image: url(https://pixabay.com/get/g0dfeb56904c3e1137c6d558c287a11cec44cb086eefa68d41519a80a2f8322d3aacf6829964e0ce463297031c8f3dfb9ef9a809cb345c6955e64eb6d34f01d54_1920.jpg);
-      background-size: 100% 100%;
-      width: 20rem;
-      height: 30rem;
-      border-radius: 6px;
-      cursor: pointer;
-      margin: 0rem 2rem 1rem 2rem;
-     
-      box-shadow: 0 2px 2px rgba(0,0,0,0.2);
-    }
-    .gato{
-        background-image: url(./img/GatoInicio.jpg);
-        background-size: 100% 100%;
-        width: 20rem;
-        height: 30rem;
-        border-radius: 6px;
-        cursor: pointer;
-        margin: 1rem 2rem 2rem 2rem;
-
-        box-shadow: 0 2px 2px rgba(0,0,0,0.2);
-        transition: all 500ms ease-out;
-    }
-    
-    /*------------------------Div RESPONSIVE Perro ----------------------*/
-    
-    .capaP{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 185px;
-      top: 0;
-      border-radius: 6px;
-      background: rgb(237, 152, 56);
-      background: linear-gradient(177deg, rgb(237, 152, 56, 0.563) 0%, rgba(88,230,88,0) 69%);
-      transition: all 500ms ease-out;
-      opacity: 0;
-      visibility: hidden;
-      text-align: center;
-    }
-    
-    .capaP h3{
-      position: relative;
-      height: 250px;
-      width: 350px;
-      opacity: 1;
-      overflow: hidden;
-      text-align: center;
-    
-    }
-    
-    .perro:hover > .capaP{
-      opacity: 1;
-      visibility: visible;
-      justify-content: center;
-    }
-    
-    .perro:hover > .capaP h3{
-      margin-top: 50%;
-      margin-bottom: 15px;
-      transition: all 500ms ease-out;
-    }
-    
-    .perro .capaP h3{
-      color: rgb(0, 0, 0);
-      font-size: 1.5rem;
-      font-weight: 300;
-      margin-bottom: 0;
-      transition: all 1s ease-out;
-      margin-top: 30px;
-    }
-    .a__perro { 
-      text-decoration: none;
-    }
-    
-    .capaP .a__perro a {
-      width: 100%;
-      height: 185px;
-    }
-    
-    
-    /*------------------------Div RESPONSIVE Gato-----------------*/
-    
-    .capaP2{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-      top: 0;
-      border-radius: 6px;
-      background: rgb(237, 152, 56);
-      background: linear-gradient(177deg, rgb(237, 152, 56, 0.563) 0%, rgba(88,230,88,0) 69%);
-      transition: all 500ms ease-out;
-      opacity: 0;
-      visibility: hidden;
-      text-align: center;
-    }
-    
-    .capaP2 h3{
-      position: relative;
-      height: 250px;
-      width: 350px;
-      overflow: hidden;
-    }
-    
-    .gato:hover > .capaP2{
-      opacity: 1;
-      visibility: visible;
-    }
-    
-    .gato:hover > .capaP2 h3{
-      margin-top: 50%;
-      margin-bottom: 15px;
-    }
-    
-    .gato .capaP2 h3{
-      color: rgb(0, 0, 0);
-      font-size: 1.5rem;
-      font-weight: 300;
-      margin-bottom: 0;
-      transition: all 500ms ease-out;
-      margin-top: 30px;
-    }
-  
-  
+   
   }
-  
