@@ -548,6 +548,7 @@ box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.29);
   background: rgb(39, 55, 70);
   transition: 500ms;
   cursor: pointer;
+  color: #ffffff;
 }
 
 .boton__comprar a:hover {
