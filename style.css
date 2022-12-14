@@ -155,18 +155,19 @@
   }
 
   .boton1 {
-    background-color:rgba(15, 14, 10, 1) ;
+    background-color:rgba(0, 0, 0, 0) ;
     margin-top: 80px;
     z-index: 10;
     text-decoration: none;
     padding: 7px;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
-    border-bottom: #ffffff 4px solid;
+    border: rgb(237, 152, 56) 2px solid;
+    border-radius: 20px;
   }
 
   .boton1 a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 1rem 2rem;
     font-weight: 300;
   }
@@ -175,7 +176,7 @@
   }
 
   .boton1:hover{
-    background-color:rgb(211, 137, 52) ;
+    background-color:rgb(237, 152, 56); ;
     transition: 300ms;
 
   }
@@ -516,9 +517,7 @@
 }
 /* LARGE SIZE */
 @media(min-width: 700px) {
-  body {
-      padding: 0 4em;
-  }
+  
   .contact-wrapper {
       display: grid;
       grid-template-columns: 2fr 1fr;
